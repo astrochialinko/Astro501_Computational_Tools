@@ -1,0 +1,1 @@
+ffmpeg -i fig%03d.png -vf scale=1280x720 -c:v libxvid -r 20 -qmax 2 -pix_fmt yuv420p animation.mp4
